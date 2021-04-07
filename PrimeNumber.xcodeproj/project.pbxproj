@@ -15,6 +15,8 @@
 		2BEAA427261DBD2D007903EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BEAA425261DBD2D007903EB /* LaunchScreen.storyboard */; };
 		2BEAA432261DBD2E007903EB /* PrimeNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEAA431261DBD2E007903EB /* PrimeNumberTests.swift */; };
 		2BEAA43D261DBD2E007903EB /* PrimeNumberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEAA43C261DBD2E007903EB /* PrimeNumberUITests.swift */; };
+		2BEAA452261DC433007903EB /* AddNumberVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEAA451261DC433007903EB /* AddNumberVC.swift */; };
+		2BEAA457261DD84B007903EB /* ProfilVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEAA456261DD84B007903EB /* ProfilVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2BEAA438261DBD2E007903EB /* PrimeNumberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimeNumberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BEAA43C261DBD2E007903EB /* PrimeNumberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeNumberUITests.swift; sourceTree = "<group>"; };
 		2BEAA43E261DBD2E007903EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BEAA451261DC433007903EB /* AddNumberVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNumberVC.swift; sourceTree = "<group>"; };
+		2BEAA456261DD84B007903EB /* ProfilVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				2BEAA423261DBD2D007903EB /* Assets.xcassets */,
 				2BEAA425261DBD2D007903EB /* LaunchScreen.storyboard */,
 				2BEAA428261DBD2D007903EB /* Info.plist */,
+				2BEAA451261DC433007903EB /* AddNumberVC.swift */,
+				2BEAA456261DD84B007903EB /* ProfilVC.swift */,
 			);
 			path = PrimeNumber;
 			sourceTree = "<group>";
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BEAA457261DD84B007903EB /* ProfilVC.swift in Sources */,
 				2BEAA41F261DBD2B007903EB /* ViewController.swift in Sources */,
 				2BEAA41B261DBD2B007903EB /* AppDelegate.swift in Sources */,
 				2BEAA41D261DBD2B007903EB /* SceneDelegate.swift in Sources */,
+				2BEAA452261DC433007903EB /* AddNumberVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +454,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jc.PrimeNumber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,7 +473,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jc.PrimeNumber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
