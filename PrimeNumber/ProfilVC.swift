@@ -34,7 +34,7 @@ class ProfilVC: UIViewController , MFMailComposeViewControllerDelegate{
         if MFMailComposeViewController.canSendMail() {
             let mail = MFMailComposeViewController()
             mail.mailComposeDelegate = self
-            mail.setToRecipients(["cahyadijulianti@.com"])
+            mail.setToRecipients(["cahyadijulianti@gmail.com"])
             mail.setSubject("")
             mail.setMessageBody("", isHTML: true)
             present(mail, animated: true)
